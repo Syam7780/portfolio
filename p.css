@@ -1,0 +1,240 @@
+.img{
+    width: 93%;
+    margin: 0% 0% 7% 4%;
+    border: 1px solid rgb(109, 106, 106);
+    border-top: none;
+    border-left: none;
+    box-shadow: 10px 10px 6px black;  
+}
+/* nav{
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 2px;
+} */
+.photo{
+    position: absolute;
+    margin-top: -6%;
+    transform: rotate(5deg);
+    width: 50%;
+    margin-left: 47%;
+}
+.skill_img{
+    width: 30%;
+    margin-bottom:3%;
+}
+.skills_head,.about_head{
+    font-family: "Montserrat";
+    font-weight: 900;
+    padding-bottom: 5%;
+}
+.skill_name{
+    padding-top: 5%;
+    font-weight: 600;
+    color: rgb(95, 92, 92);
+}
+.sk_1,.sk_2{
+    width: 40%;
+    padding-bottom: 8%;
+}
+.sk_3,.sk_4,.sk_7{
+    width: 70%;
+    padding-bottom: 18%;
+
+}
+.sk_6{
+    width: 30%;
+}
+.sk_5{
+    width: 80%; 
+}
+.skill_box{
+    margin-bottom: 4%;
+}
+.name{
+    font-family: "Montserrat";
+    font-weight: 900;
+    margin: 15% 0% 0% 15%;
+}
+.c_name {
+    margin: 0% 0% 0% 15%;
+    font-weight: 700;
+    color: rgb(95, 92, 92);
+    font-size: 1rem;
+}
+.btn1,.icons{
+    margin: 0.5% 0% 0% 15%;
+}
+.icons i{
+   padding: 5% 2% 0% 2%;
+   color: black;
+}
+.hi{
+    font-family: "calibri";
+    font-weight: bold;
+}
+#SKILLS{
+    background-color: rgb(169, 169, 169, 0.5);
+    padding: 5% 15%;
+
+}
+#ABOUT{
+    padding: 5% 7%;
+    background-color: back;
+}
+.about_head{
+    color: black;
+}
+.about_para{
+    font-weight: 400;
+    color: rgb(130, 130, 130);
+
+}
+.about_name,.slogan{
+    font-size: 1.1rem;
+    color: black;
+}
+.about_skills{
+    padding-top:4% ;
+}    
+.explore h5{
+    padding-top: 4%;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.about_title, .project_title{
+    margin-top: 5%;
+    padding: 2% 10% 2% 5%;
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+.about_text,.project_text{
+    padding-left: 6%;
+    font-weight: 450;
+    color: rgb(118, 118, 118);
+}
+
+#PROJECTS{
+    background-color: black;
+    padding: 5% 7%;
+}
+.project_title{
+    color: white;
+}
+.explore_btn{
+    margin-top: 1%;
+    padding: 0%;
+}
+.explore_btn:hover{
+    background-color: white;
+    color: black;
+}
+#CONTACT{
+    padding: 4% 6%;
+   background-color: rgb(169, 169, 169, 0.5);
+}
+.contact_head{
+    font-family: "Montserrat";
+    font-weight: 900;
+    padding-bottom: 5%;
+}
+.contact_para,.contact_para1{
+    text-align: left;
+    font-weight: 400;
+    color: rgb(62, 62, 62);
+    padding-bottom: 3%;
+}
+.details{
+    color: black;
+    font-weight: 400;
+    text-align: left;
+}
+.a{
+    text-decoration: none;
+    color: rgb(137, 2, 228);
+    cursor: pointer;
+}
+.form{
+    padding: 2%;
+    border-radius: 1%;
+    background-color: rgb(255, 255, 255, 0.4);
+}
+.submit{
+    margin-top: 10%;
+}
+footer{
+    background-color: black;
+    padding: 5% 3%;
+}
+.footer_data a{
+    text-decoration: none; 
+    color: rgb(123, 123, 123);    
+}
+.footer_data a:hover{
+    text-decoration: underline; 
+    color: rgb(185, 185, 185);  
+    font-weight: 500;  
+}
+footer h6{
+    font-size: 1.2rem;
+    color: white;
+}
+footer p{ 
+    color: rgb(122, 122, 122);
+}
+.footer_icons{
+    padding-top: 5%;
+}
+footer a i{
+    color: white;
+    margin-right: 1%;
+    padding-left: 1%;
+}
+footer a i:hover{
+    color: rgb(145, 228, 221)
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+    .name{
+        font-family: "Montserrat";
+        font-weight: 900;
+        margin: 7% 0% 0% 5%;
+        font-size: 1rem;
+    }
+    .c_name {
+        margin: 0% 0% 0% 5%;
+        font-weight: 900;
+        color: rgb(95, 92, 92);
+        font-size: 0.6rem;
+    }
+    .btn1{
+        margin: 0% 0% 0% 7%;
+    }
+    .icons{
+        margin: 0% 0% 0% 8%;
+    }
+    .icons i{
+        padding: 5% 2% 0% 0%;
+        color: black;
+       
+     }
+     .skill_img{
+        width: 10%;
+        margin-bottom:3%;
+    }
+    .sk_1,.sk_2{
+        width: 20%;
+        padding-bottom: 8%;
+    }
+    .sk_3,.sk_4,.sk_7{
+        width: 30%;
+        padding-bottom: 18%;
+    
+    }
+    .sk_6{
+        width: 10%;
+    }
+    .sk_5{
+        width: 40%; 
+    }
+  
+  }
