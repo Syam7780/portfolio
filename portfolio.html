@@ -1,0 +1,278 @@
+{% include "p_header.html" %}
+<body>
+  <section id="TOP">
+    <div class="cards">
+        <img src="{{ url_for('static',filename='images/main1.jpg')}}" class="img-fluid img"  alt="">
+        <div class="card-img-overlay">
+                <img src="{{ url_for('static',filename='images/f.png')}}" class="photo"  alt="">
+                <h3 class="card-title name">
+                        <n class="hi">Hi, I am</n><br>SWAMY BATHULA
+                </h3>
+                <p class="card-text c_name">AI&ML Engineer / Python Developer</p>
+                <button class="card-text btn btn1 btn-sm btn-outline-primary rounded-pill" type="button">
+                        Resume/CV <i class="fa-solid fa-download"></i>
+                </button>
+                
+                <p class="card-text icons">
+                <a href=""><i class="fa-brands fa-linkedin fa-xl icon"></i></a>
+                <a href=""><i class="fa-brands fa-github fa-xl icon"></i></a>
+                <a href=""><i class="fa-brands fa-square-x-twitter fa-xl icon"></i></a>
+             </p>  
+        </div>
+    </div>
+  </section>
+ 
+  <section id="SKILLS" class="bg-seondary">
+ <div class="container">
+        <div class="row text-center">
+                <h3 class="skills_head">MY SKILLS</h3>
+        </div>
+        <div class="row text-center r1">
+                <div class="col-lg-2 col-sm-4 skill_box">
+                        <img src="{{ url_for('static',filename='images/tensor.png')}}" class="img-fluid skill_img"  alt="">
+                    <p class="skill_name">TENSORFLOW</p>
+                </div>
+                <div class="col-lg-2 col-sm-4 skill_box">
+                        <img src="{{ url_for('static',filename='images/sklearn.png')}}" class="img-fluid skill_img sk_1"  alt="">
+                    <p class="skill_name">SKLEARCN</p>
+                </div>
+                <div class="col-lg-2 col-sm-4 skill_box">
+                        <img src="{{ url_for('static',filename='images/pytorch.png')}}" class="img-fluid skill_img"  alt="">
+
+                    <p class="skill_name">PYTORCH</p>
+                </div>
+                <div class="col-lg-2 col-sm-4 skill_box ">
+                        <img src="{{ url_for('static',filename='images/spacy.png')}}" class="img-fluid skill_img"  alt="">
+
+                    <p class="skill_name">SPACY</p>
+                </div>
+                <div class="col-lg-2 col-sm-4 skill_box">
+                        <img src="{{ url_for('static',filename='images/pytorch.png')}}" class="img-fluid skill_img"  alt="">
+
+                    <p class="skill_name">PYTORCH</p>
+                </div>
+                <div class="col-lg-2 col-sm-4 skill_box">
+                        <img src="{{ url_for('static',filename='images/keras.jpg')}}" class="img-fluid skill_img"  alt="">
+
+                    <p class="skill_name"> KERAS</p>
+                </div>
+                <div class="col-lg-2 col-sm-4 skill_box">
+                        <img src="{{ url_for('static',filename='images/pandas.png')}}" class="img-fluid skill_img sk_2"  alt="">
+
+                    <p class="skill_name"> PANDAS</p>
+                </div>
+                <div class="col-lg-2 col-sm-4 skill_box">
+                        <img src="{{ url_for('static',filename='images/numpy.png')}}" class="img-fluid skill_img"  alt="">
+
+                    <p class="skill_name"> NUMPY</p>
+                </div>
+                <div class="col-lg-2 col-sm-6 skill_box">
+                        <img src="{{ url_for('static',filename='images/matplot.png')}}" class="img-fluid skill_img sk_3"  alt="">
+
+                    <p class="skill_name"> MATLOPTLIB</p>
+                </div>
+                <div class="col-lg-2 col-sm-4 skill_box">
+                        <img src="{{ url_for('static',filename='images/plotly.png')}}" class="img-fluid skill_img sk_4"  alt="">
+
+                    <p class="skill_name"> PLOTLY</p>
+                </div>
+                <div class="col-lg-2 col-sm-4 skill_box">
+                        <img src="{{ url_for('static',filename='images/flask.png')}}" class="img-fluid sk_5"  alt="">
+
+                    <p class="skill_name"> FLASK & DJANGO</p>
+                </div>
+                <div class="col-lg-2 col-sm-4 skill_box">
+                        <img src="{{ url_for('static',filename='images/python1.png')}}" class="img-fluid sk_6"  alt="">
+
+                    <p class="skill_name">CORE PYTHON DEVELOPER</p>
+                </div>
+                <div class="col-lg-2 col-sm-4 skill_box">
+                        <img src="{{ url_for('static',filename='images/full-stack.png')}}" class="img-fluid sk_7"  alt="">
+
+                    <p class="skill_name">FULL-STACK</p>
+                </div>
+                        
+        </div>
+
+ </div>
+  </section>
+
+  <section id="ABOUT">
+        <div class="row text-center">
+                <h3 class="about_head">ABOUT ME</h3>
+        </div>
+        <p class="col about_para text-center"><b class="about_name">Swamy- </b>crafts intelligence from data — blending creativity with code.
+                As an AI & ML Engineer, i builds  and deploys AI models using TensorFlow, Python, and Scikit-learn.
+                From vision systems to NLP models, i brings ideas to life with precision and purpose.Experienced in 
+                data preprocessing, model tuning, and system integration.
+                I doesn’t just write models — i builds more than models and builds with experiences powered by 
+                ML.<br> <b class="slogan">Driven by curiosity, fueled by code, and focused on impact.</b></p>
+        
+<!--                 
+        <div class="row text-center explore">
+                <h5>| &nbsp;&nbsp;EXPLORE&nbsp;&nbsp; |</h5>
+        </div> -->
+
+<div class="container about_skills">
+    <div class="row">
+        <div class="col-lg-6 col-sm-12">
+                                <h5 class="card-title about_title">TensorFlow</h5>
+                                <p class="card-text about_text">Able to build and deploy deep learning models for tasks like image classification and NLP.
+                                </p>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+                        <h5 class="card-title about_title">Scikit-learn</h5>
+                        <p class="card-text about_text">Skilled in applying machine learning algorithms for regression, classification, and clustering.
+                        </p>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+                        <h5 class="card-title about_title">Python</h5>
+                        <p class="card-text about_text">Proficient in writing efficient scripts for data analysis, automation, and AI development.
+                        </p>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+                        <h5 class="card-title about_title">OpenCV</h5>
+                        <p class="card-text about_text">Experienced in developing computer vision applications such as face detection and object tracking.
+                        </p>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+                        <h5 class="card-title about_title">Pandas</h5>
+                        <p class="card-text about_text">Well-versed in data manipulation, cleaning, and transformation for analysis and modeling.
+                        </p>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+                        <h5 class="card-title about_title">NumPy</h5>
+                        <p class="card-text about_text">Capable of handling mathematical computations and linear algebra for ML workflows.
+                        </p>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+                        <h5 class="card-title about_title">Keras</h5>
+                        <p class="card-text about_text">Comfortable building deep learning models with quick prototyping and customization.
+                        </p>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+                        <h5 class="card-title about_title">spaCy</h5>
+                        <p class="card-text about_text">Able to develop NLP pipelines for named entity recognition, text classification, and parsing.
+                        </p>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+                        <h5 class="card-title about_title">NLTK</h5>
+                        <p class="card-text about_text">Experienced in working with textual data for language modeling and linguistic analysis.
+                        </p>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+                        <h5 class="card-title about_title">HTML/CSS</h5>
+                        <p class="card-text about_text">Can design and style modern, responsive websites and interfaces.
+                        </p>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+                        <h5 class="card-title about_title">Power BI</h5>
+                        <p class="card-text about_text">Proficient in creating interactive dashboards and visualizations to communicate data-driven insights effectively.
+                        </p>
+        </div>
+    </div>
+</div>
+  </section>
+
+  <section id="PROJECTS">
+    <div class="row text-center">
+        <h3 class="about_head text-light">PROJECTS</h3>
+</div>
+    <div class="container about_projects">
+        <div class="row projects_names">
+            <div class="col-lg-6 col-sm-12">
+                <h5 class="card-title project_title text-light">Python Projects (Beginner to Advanced)</h5>
+                <p class="card-text project_text">Created various Python applications, from Turtle graphics and
+                     Tkinter GUI programs to RESTful APIs, web frameworks, and automation tools.
+                     <button class="btn btn-sm bg-secondar btn-outline-light rounded-pill explore_btn" type="button">eplore</button>
+                </p>
+            </div> 
+            <div class="col-lg-6 col-sm-12">
+                <h5 class="card-title project_title text-light">Selenium Automation Projects</h5>
+                <p class="card-text project_text">Automated browser tasks using Selenium, including form 
+                    submissions to website interaction, and testing workflows for enhanced productivity.
+                    <button class="btn btn-sm bg-secondar btn-outline-light rounded-pill explore_btn" type="button">eplore</button>
+                </p>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <h5 class="card-title project_title text-light">Web Scraping Tools</h5>
+                <p class="card-text project_text">Built efficient web scrapers using BeautifulSoup and 
+                    Selenium to extract data from dynamic and static websites for data analysis and automation.
+                    <button class="btn btn-sm bg-secondar btn-outline-light rounded-pill explore_btn" type="button">eplore</button>
+                </p>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <h5 class="card-title project_title text-light">Telegram Chatbot</h5>
+                <p class="card-text project_text">Built an interactive Telegram chatbot using Python that 
+                    responds to user commands, fetches API data, and automates common tasks.
+                    <button class="btn btn-sm bg-secondar btn-outline-light rounded-pill explore_btn" type="button">eplore</button>
+                </p>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <h5 class="card-title project_title text-light">YOLO Object Detection</h5>
+                <p class="card-text project_text">Developed a real-time object detection system using the YOLO 
+                    algorithm to identify and classify multiple objects in images and video streams.
+                    <button class="btn btn-sm bg-secondar btn-outline-light rounded-pill explore_btn" type="button">eplore</button>
+                </p>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <h5 class="card-title project_title text-light">Leaf Disease Detection using Neural Networks</h5>
+                <p class="card-text project_text">Trained a neural network model to detect and classify leaf 
+                    diseases from images,aiding early agricultural diagnosis through computer vision.
+                    <button class="btn btn-sm bg-secondar btn-outline-light rounded-pill explore_btn" type="button">eplore</button>
+                </p>
+            </div>
+    </div>
+</div>
+  </section>
+
+  <section id="CONTACT">
+    <div class="row text-center">
+        <h3 class="contact_head text-light text-dark">CONTACT ME</h3>
+</div>
+<div class="row text-center">
+<p class="contact_para"><b style="font-size: 1.5rem;color: black;">I'm</b> 
+    always open to connecting with like-minded individuals, collaborating on exciting 
+    projects, or discussing opportunities in AI, Machine Learning, and Python development. Whether you have a 
+    question, an idea, or just want to say hi—feel free to reach out!<br>
+    <p class="details">
+    <b>Email:</b> magnet4791@gmail.com<br>
+    
+    <b>Phone / WhatsApp:</b> +91 75697 96382<br>
+    
+    <b>Telegram:</b> [Available for chat]- 75697 96382<br>
+    
+    <b>LinkedIn:</b> [to connections and professional networking] <a class="a" > Click Here </a> </p> 
+</p>
+<p class="contact_para1"> <b style="font-size: 1rem;color: black;">I'd</b> love to hear from you! Whether you're a recruiter, fellow developer, startup founder, or just curious 
+    about my work—I'm open to opportunities and ready to collaborate.You can reach out to me directly through 
+    any of the contact details above, or simply fill out the form and I'll get back to you as soon as possible.
+    <br><br>
+   <b> Let’s build something awesome together! </b></p>
+</div>
+         <form method="POST" action="" class="form">
+        <div class="row">
+            <div class="col-lg-4 col-sm-6">
+                <label class="form-label" id="name">Name</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <label class="form-label" id="name">Email</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <label class="form-label" id="name">Subject</label>
+                <input type="text" class="form-control" placeholder="Subject (Optional)">
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <label class="form-label" id="name">Message</label>
+                <textarea class="form-control" rows="5"> </textarea>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <button type="submit" class="btn btn-outline-primary btn-md submit">Submit</button>
+            </div>
+        </div>
+         </form>
+  </section>
+</body> 
+{% include "p_footer.html" %}
