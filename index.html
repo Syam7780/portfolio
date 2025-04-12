@@ -1,10 +1,62 @@
-{% include "p_header.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/p.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/05131c2067.js" crossorigin="anonymous"></script>
+
+    <div class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark  " style="margin-left: auto ;padding:0% 5%">
+            <a class="navbar-brand" href="/" style="font-weight: bold;color: black;">
+                <i clas="fa-solid fa-chalkboard-user fa-xl"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        <div  class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav "  style="margin-left: 55%;">
+                <li class="nav-item">
+                    <a class="nav-link" href="">Home</a>
+                </li>
+                <li class="nav-item" style="margin-left: 7%;">
+                    <a class="nav-link" href="#SKILLS">Skills</a>
+                </li>
+                <li class="nav-item" style="margin-left: 7%;">
+                    <a class="nav-link" href="#PROJECTS">Projects</a>
+                </li>
+                <li class="nav-item" style="margin-left: 7%;">
+                    <a class="nav-link" href="#ABOUT">About</a>
+                </li>
+                <li class="nav-item" style="margin-left: 7%;">
+                    <a class="nav-link" href="#CONTACT">Contact</a>
+                </li>
+                <li class="nav-item" style="margin-left: 7%;">
+                    <a class="nav-link" href="/">Blog</a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+    </div>
+
+</head>
+
+<!-- {% include "p_header.html" %} -->
+  
 <body>
   <section id="TOP">
     <div class="cards">
-        <img src="{{ url_for('static',filename='images/main1.jpg')}}" class="img-fluid img"  alt="">
+        <img src="main1.jpg" class="img-fluid img"  alt="">
         <div class="card-img-overlay">
-                <img src="{{ url_for('static',filename='images/f.png')}}" class="photo"  alt="">
+                <img src="f.png" class="photo"  alt="">
                 <h3 class="card-title name">
                         <n class="hi">Hi, I am</n><br>SWAMY BATHULA
                 </h3>
@@ -29,65 +81,65 @@
         </div>
         <div class="row text-center r1">
                 <div class="col-lg-2 col-sm-4 skill_box">
-                        <img src="{{ url_for('static',filename='images/tensor.png')}}" class="img-fluid skill_img"  alt="">
+                        <img src="tensor.png" class="img-fluid skill_img"  alt="">
                     <p class="skill_name">TENSORFLOW</p>
                 </div>
                 <div class="col-lg-2 col-sm-4 skill_box">
-                        <img src="{{ url_for('static',filename='images/sklearn.png')}}" class="img-fluid skill_img sk_1"  alt="">
+                        <img src="sklearn.png" class="img-fluid skill_img sk_1"  alt="">
                     <p class="skill_name">SKLEARCN</p>
                 </div>
                 <div class="col-lg-2 col-sm-4 skill_box">
-                        <img src="{{ url_for('static',filename='images/pytorch.png')}}" class="img-fluid skill_img"  alt="">
+                        <img src="pytorch.png" class="img-fluid skill_img"  alt="">
 
                     <p class="skill_name">PYTORCH</p>
                 </div>
                 <div class="col-lg-2 col-sm-4 skill_box ">
-                        <img src="{{ url_for('static',filename='images/spacy.png')}}" class="img-fluid skill_img"  alt="">
+                        <img src="spacy.png" class="img-fluid skill_img"  alt="">
 
                     <p class="skill_name">SPACY</p>
                 </div>
                 <div class="col-lg-2 col-sm-4 skill_box">
-                        <img src="{{ url_for('static',filename='images/pytorch.png')}}" class="img-fluid skill_img"  alt="">
+                        <img src="pytorch.png" class="img-fluid skill_img"  alt="">
 
                     <p class="skill_name">PYTORCH</p>
                 </div>
                 <div class="col-lg-2 col-sm-4 skill_box">
-                        <img src="{{ url_for('static',filename='images/keras.jpg')}}" class="img-fluid skill_img"  alt="">
+                        <img src="keras.jpg" class="img-fluid skill_img"  alt="">
 
                     <p class="skill_name"> KERAS</p>
                 </div>
                 <div class="col-lg-2 col-sm-4 skill_box">
-                        <img src="{{ url_for('static',filename='images/pandas.png')}}" class="img-fluid skill_img sk_2"  alt="">
+                        <img src="pandas.png" class="img-fluid skill_img sk_2"  alt="">
 
                     <p class="skill_name"> PANDAS</p>
                 </div>
                 <div class="col-lg-2 col-sm-4 skill_box">
-                        <img src="{{ url_for('static',filename='images/numpy.png')}}" class="img-fluid skill_img"  alt="">
+                        <img src="numpy.png" class="img-fluid skill_img"  alt="">
 
                     <p class="skill_name"> NUMPY</p>
                 </div>
                 <div class="col-lg-2 col-sm-6 skill_box">
-                        <img src="{{ url_for('static',filename='images/matplot.png')}}" class="img-fluid skill_img sk_3"  alt="">
+                        <img src="matplot.png" class="img-fluid skill_img sk_3"  alt="">
 
                     <p class="skill_name"> MATLOPTLIB</p>
                 </div>
                 <div class="col-lg-2 col-sm-4 skill_box">
-                        <img src="{{ url_for('static',filename='images/plotly.png')}}" class="img-fluid skill_img sk_4"  alt="">
+                        <img src="plotly.png" class="img-fluid skill_img sk_4"  alt="">
 
                     <p class="skill_name"> PLOTLY</p>
                 </div>
                 <div class="col-lg-2 col-sm-4 skill_box">
-                        <img src="{{ url_for('static',filename='images/flask.png')}}" class="img-fluid sk_5"  alt="">
+                        <img src="flask.png" class="img-fluid sk_5"  alt="">
 
                     <p class="skill_name"> FLASK & DJANGO</p>
                 </div>
                 <div class="col-lg-2 col-sm-4 skill_box">
-                        <img src="{{ url_for('static',filename='images/python1.png')}}" class="img-fluid sk_6"  alt="">
+                        <img src="python1.png" class="img-fluid sk_6"  alt="">
 
                     <p class="skill_name">CORE PYTHON DEVELOPER</p>
                 </div>
                 <div class="col-lg-2 col-sm-4 skill_box">
-                        <img src="{{ url_for('static',filename='images/full-stack.png')}}" class="img-fluid sk_7"  alt="">
+                        <img src="full-stack.png" class="img-fluid sk_7"  alt="">
 
                     <p class="skill_name">FULL-STACK</p>
                 </div>
@@ -275,4 +327,62 @@
          </form>
   </section>
 </body> 
-{% include "p_footer.html" %}
+  
+<!-- {% include "p_footer.html" %} -->
+
+  <footer>
+    <div class="container">
+        <div class="row t text-center">
+            <div class="col-lg-4">
+                <h6 class="card-title text-center footer_data text-light p-4">SWAMY</h6>
+                <p class="card-text" style="text-align: left;">Passionate AI/ML developer and skilled Python programmer with 
+                    hands-on experience in deep learning,computer vision,automation and data-driven 
+                    applications.Proven building intelligent solutions from neural networks 
+                    and object detection to chatbot systems and full-stack Python projects.</p>
+            </div>
+            <div class="col-lg-2 col-sm-6 footer_data">
+                <h6 class="card-title text-light p-4">Links</h6>
+                <p class="card-text"><a href="">Home</a></p>
+                <p class="card-text"><a href="">Blog</a></p>
+                <p class="card-text"><a href="">Demo</a></p>
+                <p class="card-text"><a href="">Telegram</a></p>
+                <p class="card-text"><a href="">LinkedIn</a></p>
+                <p class="card-text"><a href="">GitHub</a></p>
+            </div>
+            <div class="col-lg-2 col-sm-6 footer_data">
+                <h6 class="card-title text-light p-4">Guides</h6>
+                <p class="card-text"><a href="">Home</a></p>
+                <p class="card-text"><a href="#ABOUT">About</a></p>
+                <p class="card-text"><a href="#SKILLS">Skills</a></p>
+                <p class="card-text"><a href="#PROJECTS">Projects</a></p>
+                <p class="card-text"><a href="#CONTACT">Contact</a></p>
+            </div>
+            <div class="col-lg-2 col-sm-6 footer_data">
+                <h6 class="card-title text-light p-4">Projects</h6>
+                <p class="card-text "><a href="">ANN Projects</a></p>
+                <p class="card-text"><a href="">CNN Projects</a></p>
+                <p class="card-text"><a href="">RNN Projects</a></p>
+                <p class="card-text"><a href="">Python Projects</a></p>
+                <p class="card-text"><a href="">Other Projects</a></p>
+            </div>
+            <div class="col-lg-2 col-sm-6 footer_data">
+                <h6 class="card-title text-light p-4">Discussions</h6>
+                <p class="card-text"><a href="">Issues</a></p>
+                <p class="card-text"><a href="">Community</a></p>
+                <p class="card-text"><a href="">Corporate sponsors</a></p>
+                <p class="card-text"><a href="">Open Collective<a href=""></a></p>
+                <p class="card-text"><a href="">Stack Overflow</a></p>
+            </div>
+        </div>
+    </div>
+<div class="row text-center footer_icons">
+    <div class="col">
+    <a href=""><i class="fa-solid fa-envelope"></i></a>
+    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+    <a href=""><i class="fa-brands fa-twitter"></i></a>
+    <a href=""><i class="fa-brands fa-instagram"></i></a>
+<p> @copyright by Syam 2025</p>
+</div>
+</div>
+
+</footer>
