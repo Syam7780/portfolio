@@ -188,6 +188,8 @@ footer a i{
 footer a i:hover{
     color: rgb(145, 228, 221)
 }
+
+/* updated features */
 #ul{
     background-color: rgba(0, 0, 0);
     border-radius:30px ;
@@ -199,6 +201,16 @@ footer a i:hover{
     color: rgb(207, 85, 255);
 
 }
+.r1{
+   background-color: rgb(255, 255, 255, 0.3);
+   border-radius: 20px;
+   border: 1px solid blac;
+   box-shadow: 10px 10px 5px 0px black;
+}
+.skill_box{
+    padding-top: 2%;
+}
+
 @media (min-width: 300px) and (max-width: 700px) {
 
     .about_title{
