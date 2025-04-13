@@ -6,10 +6,6 @@
     border-left: none;
     box-shadow: 10px 10px 6px black;  
 }
-/* nav{
-    background-color: rgb(255, 255, 255, 0.1);
-    border-radius: 2px;
-} */
 .photo{
     position: absolute;
     margin-top: -6%;
@@ -192,7 +188,17 @@ footer a i{
 footer a i:hover{
     color: rgb(145, 228, 221)
 }
+#ul{
+    background-color: rgba(0, 0, 0);
+    border-radius:30px ;
+    
+}
+#blog{
+    background-color: rgb(255, 255, 255, 0.2);
+    border-radius: 50%;
+    color: rgb(207, 85, 255);
 
+}
 @media (min-width: 300px) and (max-width: 700px) {
 
     .about_title{
