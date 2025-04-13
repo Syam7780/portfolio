@@ -213,6 +213,10 @@ footer a i:hover{
 
 @media (min-width: 300px) and (max-width: 700px) {
 
+
+    #blog{
+        background-color:black;
+    }
     .about_title{
         font-size: 0.9rem;
     }
@@ -226,7 +230,7 @@ footer a i:hover{
         margin-left: auto;
     }
     nav ul #nav-link{
-        color: black;
+        color: white;
         font-weight: bold;
         padding-bottom: 0%;
     }
