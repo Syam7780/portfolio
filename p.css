@@ -201,6 +201,17 @@ footer a i:hover{
     .about_text{
         font-size: 0.7rem;
     }
+    #ABOUT{
+        padding: 5% 3%;
+    }
+     nav ul{
+        margin-left: auto;
+    }
+    nav ul #nav-link{
+        color: black;
+        font-weight: bold;
+        padding-bottom: 0%;
+    }
     .name{
         font-family: "Montserrat";
         font-weight: 900;
